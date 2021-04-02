@@ -1,1 +1,0 @@
-// Keep this file, as weback doesn't support a single html as entry.
