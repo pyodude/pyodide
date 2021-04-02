@@ -1,6 +1,6 @@
 {
   "name": "@pyodide/pyodide",
-  "version": "0.17.0-a.1",
+  "version": "0.17.0-a1.0",
   "author": "pyodude",
   "license": "MIT",
   "homepage": "https://github.com/pyodude/pyodide#readme",
