@@ -4,6 +4,8 @@ The awesome [Pyodide](https://pyodide.org/) as an npm package.
 
 This is a **temporary** package, until [Pyodide](https://github.com/pyodide/pyodide/) releases an official npm package. 
 
+This package is **NOT** maintained by the [Pyodide](https://github.com/pyodide/pyodide/) team.
+
 ## Packages Included
 
 - [Plotly](https://plotly.com/python/) 4.14.3.
