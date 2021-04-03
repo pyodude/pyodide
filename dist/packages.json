@@ -6,87 +6,15 @@
       "six"
     ],
     "retrying": [],
-    "imageio": [
-      "numpy",
-      "pillow"
-    ],
-    "micropip": [
-      "distlib"
-    ],
-    "cycler": [
-      "six"
-    ],
-    "six": [],
-    "zarr": [
-      "numpy",
-      "asciitree",
-      "numcodecs"
-    ],
-    "lxml": [
-      "beautifulsoup4",
-      "cssselect",
-      "html5lib"
-    ],
-    "autograd": [
-      "numpy",
-      "future"
-    ],
-    "python-sat": [
-      "six"
-    ],
-    "optlang": [
-      "sympy",
-      "six",
-      "swiglpk"
-    ],
-    "pyodide-interrupts": [],
+    "toolz": [],
+    "Pygments": [],
+    "joblib": [],
+    "pytz": [],
+    "asciitree": [],
     "nltk": [
       "regex"
     ],
-    "py": [],
-    "traits": [],
-    "atomicwrites": [],
-    "asciitree": [],
     "pillow": [],
-    "numpy": [],
-    "MarkupSafe": [],
-    "decorator": [],
-    "html5lib": [
-      "webencodings",
-      "six"
-    ],
-    "cytoolz": [
-      "nose",
-      "toolz"
-    ],
-    "sympy": [
-      "mpmath"
-    ],
-    "swiglpk": [],
-    "msgpack": [],
-    "more-itertools": [],
-    "regex": [],
-    "Jinja2": [
-      "MarkupSafe"
-    ],
-    "beautifulsoup4": [
-      "soupsieve"
-    ],
-    "pandas": [
-      "numpy",
-      "python-dateutil",
-      "pytz"
-    ],
-    "webencodings": [],
-    "joblib": [],
-    "scipy": [
-      "numpy"
-    ],
-    "python-dateutil": [
-      "six"
-    ],
-    "pytz": [],
-    "pyparsing": [],
     "pytest": [
       "atomicwrites",
       "attrs",
@@ -96,23 +24,48 @@
       "setuptools",
       "six"
     ],
-    "nose": [
-      "setuptools"
+    "micropip": [
+      "distlib"
     ],
-    "freesasa": [],
-    "cssselect": [],
-    "nlopt": [
-      "numpy"
+    "parso": [],
+    "soupsieve": [],
+    "scikit-learn": [
+      "numpy",
+      "scipy",
+      "joblib"
     ],
-    "cloudpickle": [],
+    "traits": [],
+    "attrs": [
+      "six"
+    ],
     "numcodecs": [
       "numpy",
       "msgpack"
     ],
-    "uncertainties": [
-      "future"
+    "decorator": [],
+    "regex": [],
+    "yt": [
+      "numpy",
+      "matplotlib",
+      "sympy",
+      "setuptools"
     ],
-    "future": [],
+    "html5lib": [
+      "webencodings",
+      "six"
+    ],
+    "msgpack": [],
+    "more-itertools": [],
+    "biopython": [
+      "numpy"
+    ],
+    "imageio": [
+      "numpy",
+      "pillow"
+    ],
+    "Jinja2": [
+      "MarkupSafe"
+    ],
     "mpmath": [],
     "networkx": [
       "decorator",
@@ -120,40 +73,54 @@
       "matplotlib",
       "numpy"
     ],
-    "attrs": [
-      "six"
+    "uncertainties": [
+      "future"
     ],
-    "jedi": [
-      "parso"
-    ],
-    "xlrd": [],
-    "parso": [],
     "bleach": [
       "webencodings",
       "packaging",
       "six"
     ],
-    "soupsieve": [],
-    "astropy": [
-      "numpy"
+    "lxml": [
+      "beautifulsoup4",
+      "cssselect",
+      "html5lib"
     ],
-    "biopython": [
-      "numpy"
-    ],
-    "toolz": [],
-    "kiwisolver": [],
-    "yt": [
+    "statsmodels": [
       "numpy",
-      "matplotlib",
-      "sympy",
-      "setuptools"
+      "scipy",
+      "pandas",
+      "patsy"
+    ],
+    "sympy": [
+      "mpmath"
+    ],
+    "cycler": [
+      "six"
+    ],
+    "kiwisolver": [],
+    "pandas": [
+      "numpy",
+      "python-dateutil",
+      "pytz"
     ],
     "distlib": [],
-    "docutils": [],
-    "Pygments": [],
-    "setuptools": [
+    "future": [],
+    "pyodide-interrupts": [],
+    "pywavelets": [
+      "numpy",
+      "matplotlib",
+      "scipy"
+    ],
+    "MarkupSafe": [],
+    "py": [],
+    "python-sat": [
+      "six"
+    ],
+    "packaging": [
       "pyparsing"
     ],
+    "cssselect": [],
     "matplotlib": [
       "cycler",
       "kiwisolver",
@@ -163,64 +130,140 @@
       "python-dateutil",
       "pytz"
     ],
+    "pluggy": [],
+    "CLAPACK": [],
+    "autograd": [
+      "numpy",
+      "future"
+    ],
+    "scipy": [
+      "numpy",
+      "CLAPACK"
+    ],
+    "mne": [
+      "numpy",
+      "scipy"
+    ],
+    "six": [],
+    "python-dateutil": [
+      "six"
+    ],
+    "numpy": [],
+    "atomicwrites": [],
+    "xlrd": [],
+    "scikit-image": [
+      "numpy",
+      "scipy",
+      "matplotlib",
+      "networkx",
+      "pillow",
+      "imageio",
+      "pywavelets"
+    ],
+    "nose": [
+      "setuptools"
+    ],
+    "nlopt": [
+      "numpy"
+    ],
+    "pyparsing": [],
+    "jedi": [
+      "parso"
+    ],
+    "webencodings": [],
+    "setuptools": [
+      "pyparsing"
+    ],
+    "docutils": [],
+    "cytoolz": [
+      "nose",
+      "toolz"
+    ],
+    "cloudpickle": [],
+    "swiglpk": [],
+    "astropy": [
+      "numpy"
+    ],
+    "zarr": [
+      "numpy",
+      "asciitree",
+      "numcodecs"
+    ],
+    "optlang": [
+      "sympy",
+      "six",
+      "swiglpk"
+    ],
     "patsy": [
       "numpy",
       "six"
     ],
-    "packaging": [
-      "pyparsing"
+    "beautifulsoup4": [
+      "soupsieve"
     ],
-    "pluggy": []
+    "freesasa": []
   },
   "import_name_to_package_name": {
-    "imageio": "imageio",
-    "micropip": "micropip",
-    "cycler": "cycler",
-    "six": "six",
-    "zarr": "zarr",
-    "lxml": "lxml",
-    "lxml.etree": "lxml",
-    "lxml.objectify": "lxml",
-    "autograd": "autograd",
-    "pysat": "python-sat",
-    "optlang": "optlang",
-    "optlang.glpk_interface": "optlang",
-    "optlang.symbolics": "optlang",
-    "pyodide_interrupts": "pyodide-interrupts",
-    "nltk": "nltk",
-    "py": "py",
-    "py.code": "py",
-    "traits": "traits",
-    "atomicwrites": "atomicwrites",
+    "toolz": "toolz",
+    "pygments": "Pygments",
+    "joblib": "joblib",
+    "pytz": "pytz",
     "asciitree": "asciitree",
+    "nltk": "nltk",
     "PIL": "pillow",
-    "numpy": "numpy",
-    "markupsafe": "MarkupSafe",
+    "pytest": "pytest",
+    "micropip": "micropip",
+    "parso": "parso",
+    "soupsieve": "soupsieve",
+    "sklearn": "scikit-learn",
+    "sklearn.calibration": "scikit-learn",
+    "sklearn.cluster": "scikit-learn",
+    "sklearn.compose": "scikit-learn",
+    "sklearn.covariance": "scikit-learn",
+    "sklearn.cross_decomposition": "scikit-learn",
+    "sklearn.datasets": "scikit-learn",
+    "sklearn.decomposition": "scikit-learn",
+    "sklearn.discriminant_analysis": "scikit-learn",
+    "sklearn.dummy": "scikit-learn",
+    "sklearn.ensemble": "scikit-learn",
+    "sklearn.exceptions": "scikit-learn",
+    "sklearn.externals": "scikit-learn",
+    "sklearn.feature_extraction": "scikit-learn",
+    "sklearn.feature_selection": "scikit-learn",
+    "sklearn.gaussian_process": "scikit-learn",
+    "sklearn.impute": "scikit-learn",
+    "sklearn.isotonic": "scikit-learn",
+    "sklearn.kernel_approximation": "scikit-learn",
+    "sklearn.kernel_ridge": "scikit-learn",
+    "sklearn.linear_model": "scikit-learn",
+    "sklearn.manifold": "scikit-learn",
+    "sklearn.metrics": "scikit-learn",
+    "sklearn.mixture": "scikit-learn",
+    "sklearn.model_selection": "scikit-learn",
+    "sklearn.multiclass": "scikit-learn",
+    "sklearn.multioutput": "scikit-learn",
+    "sklearn.naive_bayes": "scikit-learn",
+    "sklearn.neighbors": "scikit-learn",
+    "sklearn.neural_network": "scikit-learn",
+    "sklearn.pipeline": "scikit-learn",
+    "sklearn.preprocessing": "scikit-learn",
+    "sklearn.random_projection": "scikit-learn",
+    "sklearn.semi_supervised": "scikit-learn",
+    "sklearn.svm": "scikit-learn",
+    "sklearn.tree": "scikit-learn",
+    "sklearn.utils": "scikit-learn",
+    "traits": "traits",
+    "attr": "attrs",
+    "numcodecs": "numcodecs",
     "decorator": "decorator",
+    "regex": "regex",
+    "yt": "yt",
     "html5lib": "html5lib",
-    "cytoolz": "cytoolz",
-    "sympy": "sympy",
-    "swiglpk": "swiglpk",
     "msgpack": "msgpack",
     "more_itertools": "more-itertools",
-    "regex": "regex",
+    "Bio": "biopython",
+    "imageio": "imageio",
     "jinja2": "Jinja2",
-    "bs4": "beautifulsoup4",
-    "pandas": "pandas",
-    "webencodings": "webencodings",
-    "joblib": "joblib",
-    "dateutil": "python-dateutil",
-    "pytz": "pytz",
-    "pyparsing": "pyparsing",
-    "pytest": "pytest",
-    "nose": "nose",
-    "freesasa": "freesasa",
-    "cssselect": "cssselect",
-    "nlopt": "nlopt",
-    "cloudpickle": "cloudpickle",
-    "numcodecs": "numcodecs",
-    "uncertainties": "uncertainties",
-    "future": "future",
     "mpmath": "mpmath",
     "networkx": "networkx",
     "networkx.algorithms": "networkx",
@@ -248,29 +291,75 @@
     "networkx.readwrite": "networkx",
     "networkx.readwrite.json_graph": "networkx",
     "networkx.utils": "networkx",
-    "attr": "attrs",
-    "jedi": "jedi",
-    "xlrd": "xlrd",
-    "parso": "parso",
+    "uncertainties": "uncertainties",
     "bleach": "bleach",
-    "soupsieve": "soupsieve",
-    "astropy": "astropy",
-    "Bio": "biopython",
-    "toolz": "toolz",
+    "lxml": "lxml",
+    "lxml.etree": "lxml",
+    "lxml.objectify": "lxml",
+    "statsmodels": "statsmodels",
+    "sympy": "sympy",
+    "cycler": "cycler",
     "kiwisolver": "kiwisolver",
-    "yt": "yt",
+    "pandas": "pandas",
     "distlib": "distlib",
-    "docutils": "docutils",
-    "pygments": "Pygments",
+    "future": "future",
+    "pyodide_interrupts": "pyodide-interrupts",
+    "pywt": "pywavelets",
+    "markupsafe": "MarkupSafe",
+    "py": "py",
+    "py.code": "py",
+    "pysat": "python-sat",
+    "packaging": "packaging",
+    "cssselect": "cssselect",
+    "matplotlib": "matplotlib",
+    "mpl_toolkits": "matplotlib",
+    "pluggy": "pluggy",
+    "CLAPACK": "CLAPACK",
+    "autograd": "autograd",
+    "scipy": "scipy",
+    "scipy.cluster": "scipy",
+    "scipy.constants": "scipy",
+    "scipy.fftpack": "scipy",
+    "scipy.odr": "scipy",
+    "scipy.sparse": "scipy",
+    "scipy.interpolate": "scipy",
+    "scipy.integrate": "scipy",
+    "scipy.linalg": "scipy",
+    "scipy.misc": "scipy",
+    "scipy.ndimage": "scipy",
+    "scipy.spatial": "scipy",
+    "scipy.special": "scipy",
+    "mne": "mne",
+    "six": "six",
+    "dateutil": "python-dateutil",
+    "numpy": "numpy",
+    "atomicwrites": "atomicwrites",
+    "xlrd": "xlrd",
+    "skimage": "scikit-image",
+    "nose": "nose",
+    "nlopt": "nlopt",
+    "pyparsing": "pyparsing",
+    "jedi": "jedi",
+    "webencodings": "webencodings",
     "setuptools": "setuptools",
     "easy_install": "setuptools",
     "pkg_resources": "setuptools",
-    "matplotlib": "matplotlib",
-    "mpl_toolkits": "matplotlib",
+    "docutils": "docutils",
+    "cytoolz": "cytoolz",
+    "cloudpickle": "cloudpickle",
+    "swiglpk": "swiglpk",
+    "astropy": "astropy",
+    "zarr": "zarr",
+    "optlang": "optlang",
+    "optlang.glpk_interface": "optlang",
+    "optlang.symbolics": "optlang",
     "patsy": "patsy",
-    "packaging": "packaging",
-    "pluggy": "pluggy",
+    "bs4": "beautifulsoup4",
+    "freesasa": "freesasa",
     "retrying": "retrying",
     "plotly": "plotly"
+  },
+  "shared_library": {
+    "CLAPACK": true
   }
 }
